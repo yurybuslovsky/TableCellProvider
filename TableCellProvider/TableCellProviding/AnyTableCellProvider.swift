@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - Declaration
 
-class AnyTableCellProvider {
+final class AnyTableCellProvider {
     
     // MARK: Private properties
     

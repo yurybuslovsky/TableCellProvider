@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK: - Declaration
-
 protocol TableCellProviding: class {
     associatedtype DataSource
     associatedtype Delegate: AnyObject
