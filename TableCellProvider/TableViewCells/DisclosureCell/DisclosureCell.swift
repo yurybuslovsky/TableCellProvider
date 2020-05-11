@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK: - Declaration
-
 final class DisclosureCell<Delegate: DisclosureCellDelegate>: BaseTableCell<DisclosureCellDataSource, Delegate> {
 
     // MARK: Private properties
