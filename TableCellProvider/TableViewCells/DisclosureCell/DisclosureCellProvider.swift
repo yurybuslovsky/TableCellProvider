@@ -37,6 +37,12 @@ final class DisclosureCellProvider<Delegate: DisclosureCellDelegate>:
     <
         DisclosureCellDataSource,
         Delegate,
-        DisclosureCell<Delegate>
+        DisclosureCell
     >
-{}
+{
+    
+    override func configure(cell: Cell) {
+        cell.configureWith(dataSource: dataSource, delegate: delegate)
+    }
+    
+}

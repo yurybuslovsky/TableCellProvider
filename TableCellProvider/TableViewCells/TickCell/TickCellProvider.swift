@@ -49,9 +49,13 @@ final class TickCellProvider<Delegate: TickCellDelegate>:
     <
         TickCellDataSource,
         Delegate,
-        TickCell<Delegate>
+        TickCell
     >
 {
+
+    override func configure(cell: Cell) {
+        cell.configureWith(dataSource: dataSource, delegate: delegate)
+    }
 
     override func didSelectRow() {
         dataSource.isTicked.toggle()

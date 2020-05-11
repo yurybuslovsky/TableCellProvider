@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		6E02FEF224675432003911AE /* TickCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEF124675432003911AE /* TickCellProvider.swift */; };
 		6E02FEF424675829003911AE /* BaseTableCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEF324675829003911AE /* BaseTableCellProvider.swift */; };
-		6E02FEF624675B69003911AE /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEF524675B69003911AE /* ReusableView.swift */; };
+		6E02FEF624675B69003911AE /* Dequeueable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEF524675B69003911AE /* Dequeueable.swift */; };
 		6E02FEF824675D0C003911AE /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEF724675D0C003911AE /* UITableView+Dequeueing.swift */; };
-		6E02FEFC2467643B003911AE /* ConfigurableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEFB2467643B003911AE /* ConfigurableTableCell.swift */; };
-		6E02FEFE246768B4003911AE /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E02FEFD246768B4003911AE /* BaseTableCell.swift */; };
 		6E245F7624689AD200E0AB0E /* DisclosureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E245F7524689AD200E0AB0E /* DisclosureCell.swift */; };
 		6E245F7824689ADD00E0AB0E /* DisclosureCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E245F7724689ADD00E0AB0E /* DisclosureCellProvider.swift */; };
 		6E245F7A24689BE600E0AB0E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E245F7924689BE600E0AB0E /* DetailsViewController.swift */; };
+		6EAA1FB42469650A00C3A78D /* TickCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA1FB22469650A00C3A78D /* TickCell.xib */; };
+		6EAA1FBA246966EB00C3A78D /* DisclosureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA1FB8246966EB00C3A78D /* DisclosureCell.xib */; };
 		6EAF4169246739C40052C7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4168246739C40052C7DD /* AppDelegate.swift */; };
 		6EAF416D246739C40052C7DD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF416C246739C40052C7DD /* MainViewController.swift */; };
 		6EAF4170246739C40052C7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF416E246739C40052C7DD /* Main.storyboard */; };
@@ -29,13 +29,13 @@
 /* Begin PBXFileReference section */
 		6E02FEF124675432003911AE /* TickCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickCellProvider.swift; sourceTree = "<group>"; };
 		6E02FEF324675829003911AE /* BaseTableCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCellProvider.swift; sourceTree = "<group>"; };
-		6E02FEF524675B69003911AE /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		6E02FEF524675B69003911AE /* Dequeueable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeueable.swift; sourceTree = "<group>"; };
 		6E02FEF724675D0C003911AE /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
-		6E02FEFB2467643B003911AE /* ConfigurableTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableTableCell.swift; sourceTree = "<group>"; };
-		6E02FEFD246768B4003911AE /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
 		6E245F7524689AD200E0AB0E /* DisclosureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureCell.swift; sourceTree = "<group>"; };
 		6E245F7724689ADD00E0AB0E /* DisclosureCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureCellProvider.swift; sourceTree = "<group>"; };
 		6E245F7924689BE600E0AB0E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		6EAA1FB22469650A00C3A78D /* TickCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TickCell.xib; sourceTree = "<group>"; };
+		6EAA1FB8246966EB00C3A78D /* DisclosureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisclosureCell.xib; sourceTree = "<group>"; };
 		6EAF4165246739C40052C7DD /* TableCellProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableCellProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF4168246739C40052C7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EAF416C246739C40052C7DD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6E02FEF724675D0C003911AE /* UITableView+Dequeueing.swift */,
-				6E02FEF524675B69003911AE /* ReusableView.swift */,
-				6E02FEFB2467643B003911AE /* ConfigurableTableCell.swift */,
+				6E02FEF524675B69003911AE /* Dequeueable.swift */,
 			);
 			path = Auxiliary;
 			sourceTree = "<group>";
@@ -83,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				6EAF417E24673A6E0052C7DD /* TickCell.swift */,
+				6EAA1FB22469650A00C3A78D /* TickCell.xib */,
 				6E02FEF124675432003911AE /* TickCellProvider.swift */,
 			);
 			path = TickCell;
@@ -92,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6E245F7524689AD200E0AB0E /* DisclosureCell.swift */,
+				6EAA1FB8246966EB00C3A78D /* DisclosureCell.xib */,
 				6E245F7724689ADD00E0AB0E /* DisclosureCellProvider.swift */,
 			);
 			path = DisclosureCell;
@@ -149,7 +150,6 @@
 		6EAF417C24673A180052C7DD /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				6E02FEFD246768B4003911AE /* BaseTableCell.swift */,
 				6E245F7424689AA900E0AB0E /* DisclosureCell */,
 				6E245F7324689AA000E0AB0E /* TickCell */,
 			);
@@ -215,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAF4175246739C50052C7DD /* LaunchScreen.storyboard in Resources */,
+				6EAA1FBA246966EB00C3A78D /* DisclosureCell.xib in Resources */,
+				6EAA1FB42469650A00C3A78D /* TickCell.xib in Resources */,
 				6EAF4172246739C50052C7DD /* Assets.xcassets in Resources */,
 				6EAF4170246739C40052C7DD /* Main.storyboard in Resources */,
 			);
@@ -230,14 +232,12 @@
 				6E02FEF824675D0C003911AE /* UITableView+Dequeueing.swift in Sources */,
 				6EAF418024673A6E0052C7DD /* TickCell.swift in Sources */,
 				6E02FEF424675829003911AE /* BaseTableCellProvider.swift in Sources */,
-				6E02FEFC2467643B003911AE /* ConfigurableTableCell.swift in Sources */,
 				6EAF416D246739C40052C7DD /* MainViewController.swift in Sources */,
-				6E02FEFE246768B4003911AE /* BaseTableCell.swift in Sources */,
 				6EDBE87924673B7000E22E93 /* TableCellProviding.swift in Sources */,
 				6EDBE87B24673C2200E22E93 /* AnyTableCellProvider.swift in Sources */,
 				6E245F7624689AD200E0AB0E /* DisclosureCell.swift in Sources */,
 				6EAF4169246739C40052C7DD /* AppDelegate.swift in Sources */,
-				6E02FEF624675B69003911AE /* ReusableView.swift in Sources */,
+				6E02FEF624675B69003911AE /* Dequeueable.swift in Sources */,
 				6E245F7A24689BE600E0AB0E /* DetailsViewController.swift in Sources */,
 				6E245F7824689ADD00E0AB0E /* DisclosureCellProvider.swift in Sources */,
 				6E02FEF224675432003911AE /* TickCellProvider.swift in Sources */,

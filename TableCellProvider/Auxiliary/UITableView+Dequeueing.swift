@@ -10,8 +10,8 @@ import UIKit
 
 extension UITableView {
 
-    final func register<Cell: UITableViewCell>(_ cell: Cell.Type) where Cell: ReusableView {
-        register(cell, forCellReuseIdentifier: Cell.reuseID)
+    final func register<Cell: UITableViewCell>(_ cell: Cell.Type) where Cell: Dequeueable {
+        register(Cell.nib, forCellReuseIdentifier: Cell.reuseID)
     }
     
     final func dequeueReusableCell<Cell: UITableViewCell>(for indexPath: IndexPath) -> Cell where Cell: ReusableView {

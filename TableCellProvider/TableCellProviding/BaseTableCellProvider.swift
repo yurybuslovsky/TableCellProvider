@@ -12,9 +12,8 @@ import UIKit
 
 class BaseTableCellProvider<DataSource, Delegate, Cell: UITableViewCell>
     where
-    DataSource == Cell.DataSource,
-    Delegate == Cell.Delegate,
-    Cell: ConfigurableTableCell
+    Delegate: AnyObject,
+    Cell: Dequeueable
 {
 
     // MARK: Public properties
@@ -36,6 +35,7 @@ class BaseTableCellProvider<DataSource, Delegate, Cell: UITableViewCell>
     // MARK: May-be-overridden API
 
     func didSelectRow() {}
+    func configure(cell: Cell) {}
 
 }
 
@@ -49,7 +49,7 @@ extension BaseTableCellProvider: TableCellProviding {
     func cellForRow(at indexPath: IndexPath) -> Cell {
         self.indexPath = indexPath
         let cell = tableView.dequeueReusableCell(for: indexPath) as Cell
-        cell.configureWith(dataSource: dataSource, delegate: delegate)
+        configure(cell: cell)
         return cell
     }
 
